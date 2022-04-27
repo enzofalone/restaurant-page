@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#headline {
+    display: flex;
+
+    width: 100vw;
+    height: 3rem;
+    background-color:black;  
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+.headline-button {
+    
+    vertical-align: center;
+    
+    text-decoration: none;
+    color: #ececec;
+
+    transition: all 200ms;
+}
+
+.headline-button:hover { 
+    color: cyan;
+}
+
+.headline-button.selected {
+    color: red;
+}
